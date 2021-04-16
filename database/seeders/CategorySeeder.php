@@ -42,6 +42,9 @@ class CategorySeeder extends Seeder
         		'Traffic',
         		'Mekong'
         	],
+            'Perspectives' => [
+                'Perspective'
+            ],
         	'World' => [
         		'Data',
         		'Analysis',
