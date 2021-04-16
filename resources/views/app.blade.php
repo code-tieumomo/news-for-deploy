@@ -586,8 +586,8 @@
                     url: "https://geolocation-db.com/jsonp",
                     jsonpCallback: "callback",
                     dataType: "jsonp",
-                    success: function(response) {
-                        $(".current-location").html((response.city == null) ? '<span class="text-danger">Error while get location !</span>' : (response.city  + ', ' + response.country_code));
+                    success: function(response) {console.log(response);
+                        $(".current-location").html(((response.city == null) ? response.country_name : response.city)  + ', ' + response.country_code);
                         var lat = response.latitude;
                         var lon = response.longitude;
                         $.ajax({
