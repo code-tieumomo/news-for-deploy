@@ -46,7 +46,7 @@
                                 <div class="tab01-head how2 how2-cl1 bocl12 flex-s-c m-r-10 m-r-0-sr991">
                                     <!-- Brand tab -->
                                     <h3 class="f1-m-2 cl12 tab01-title">
-                                        Entertainment
+                                        Enter
                                     </h3>
 
                                     <!-- Nav tabs -->
